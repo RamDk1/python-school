@@ -28,8 +28,6 @@ class Bond(Asset):
     def get_description(self):
         return f"{self.description}: {self.duration} : ${self.price} : {self.interest}"
 
-# This is how your code will be called.
-# DO NOT change the variable names. You CAN try different values.
 ticker = "MSFT"
 price = 400.00
 description = "Microsoft Corporation"
@@ -38,7 +36,7 @@ bondprice = 100.00
 duration = 30
 interest = 4.38
 
-# ******* DO NOT CHANGE THIS CODE ********
+
 stock = Stock(ticker, price, description)
 stock_description = stock.get_description()
 
