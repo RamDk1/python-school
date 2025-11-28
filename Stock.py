@@ -1,5 +1,3 @@
-
-
 class Stock:
     def __init__(self, ticker, price, company):
         self.ticker = ticker
