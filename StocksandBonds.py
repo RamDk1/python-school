@@ -28,6 +28,7 @@ class Bond(Asset):
     def get_description(self):
         return f"{self.description}: {self.duration} : ${self.price} : {self.interest}"
     
+
 ticker = "MSFT"
 price = 400.00
 description = "Microsoft Corporation"
@@ -35,6 +36,7 @@ bondname = "30 Year US Treasury"
 bondprice = 100.00
 duration = 30
 interest = 4.38
+
 
 stock = Stock(ticker, price, description)
 stock_description = stock.get_description()
